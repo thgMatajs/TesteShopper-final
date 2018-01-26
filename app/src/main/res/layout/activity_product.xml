@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/background_color"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Produto:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/tela_produto_edtnome"
+        android:hint="Digite o nome do produto"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="Preço:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/tela_produto_edtpreco"
+        android:hint="Digite o preço do produto"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:text="Código de barras:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/tela_produto_edtcode"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/tela_produto_btnsalvar"
+        android:text="Salvar"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textColor="@color/color_btn_secundario"
+        android:background="@color/color_btn_principal"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/tela_produto_btncancelar"
+        android:text="Cancelar"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/color_btn_secundario"
+        android:textColor="@color/color_btn_principal"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

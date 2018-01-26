@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="20dp"
+    android:background="@color/background_color">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/logo_shopper_escuro"
+            android:layout_width="300dp"
+            android:layout_height="150dp"/>
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:inputType="textEmailAddress"
+            android:hint="Digite seu e-mail"
+            android:id="@+id/tela_login_edtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_person_24dp" />
+
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:inputType="textPassword"
+            android:hint="Digite sua senha"
+            android:id="@+id/tela_login_edtsenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock_24dp" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:id="@+id/tela_login_btn_logar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:textColor="@color/color_btn_secundario"
+            android:background="@color/color_btn_principal"
+            android:textStyle="bold"
+            android:text="Logar" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:id="@+id/tela_login_btn_cadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/color_btn_secundario"
+            android:textColor="@color/color_btn_principal"
+            android:textStyle="bold"
+            android:text="cadastrar" />
+
+
+</LinearLayout>
